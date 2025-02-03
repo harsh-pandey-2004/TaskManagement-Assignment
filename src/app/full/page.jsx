@@ -1,6 +1,6 @@
-import { getTasks } from './app/lib/action'
-import TaskList from './app/components/TaskList'
-import CreateTaskForm from './app/components/CreateTaskForm'
+import { getTasks } from '../lib/action'
+import TaskList from '../components/TaskList'
+import CreateTaskForm from '../components/CreateTaskForm'
 
 export default async function Home() {
   const tasks = await getTasks()
