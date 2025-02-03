@@ -1,9 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
     experimental: {
-      appDir: true,  // ✅ Required for App Router (Next.js 13+)
+      appDir: false,  // Disable appDir if it causes issues
     },
   };
-  
-  export default nextConfig;
   
